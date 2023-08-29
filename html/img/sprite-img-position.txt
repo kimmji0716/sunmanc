@@ -1,0 +1,256 @@
+.bg-bottom_arrow_small {
+    width: 10px; height: 10px;
+    background: url('css_sprites.png') -346px -170px;
+}
+
+
+.bg-bottom_arrow {
+    width: 14px; height: 15px;
+    background: url('css_sprites.png') -411px -296px;
+}
+
+
+.bg-hamburger_black {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -10px -254px;
+}
+
+
+.bg-bag_icon {
+    width: 51px; height: 51px;
+    background: url('css_sprites.png') -376px -84px;
+}
+
+
+.bg-call {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -450px -10px;
+}
+
+
+.bg-slide_prev_btn_moible {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -450px -230px;
+}
+
+
+.bg-call_mobile {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -396px -334px;
+}
+
+
+.bg-hamburger_white_mobile {
+    width: 42px; height: 42px;
+    background: url('css_sprites.png') -212px -334px;
+}
+
+
+.bg-hamburger_black_mobile {
+    width: 42px; height: 42px;
+    background: url('css_sprites.png') -274px -334px;
+}
+
+
+.bg-heart_icon {
+    width: 51px; height: 51px;
+    background: url('css_sprites.png') -376px -155px;
+}
+
+
+.bg-indi_gray {
+    width: 10px; height: 10px;
+    background: url('css_sprites.png') -346px -200px;
+}
+
+
+.bg-hamburger_white {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -90px -254px;
+}
+
+
+.bg-inde_white {
+    width: 10px; height: 10px;
+    background: url('css_sprites.png') -217px -404px;
+}
+
+
+.bg-instagram_icon_mobile {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -10px -404px;
+}
+
+
+.bg-logo_pink {
+    width: 184px; height: 26px;
+    background: url('css_sprites.png') -10px -78px;
+}
+
+
+.bg-map {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -450px -66px;
+}
+
+
+.bg-instagram_icon {
+    width: 34px; height: 34px;
+    background: url('css_sprites.png') -450px -122px;
+}
+
+
+.bg-logo_link_mobile {
+    width: 130px; height: 18px;
+    background: url('css_sprites.png') -214px -78px;
+}
+
+
+.bg-naver_icon_mobile {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -54px -404px;
+}
+
+
+.bg-logo_white {
+    width: 184px; height: 26px;
+    background: url('css_sprites.png') -10px -124px;
+}
+
+
+.bg-naver_icon {
+    width: 34px; height: 34px;
+    background: url('css_sprites.png') -450px -176px;
+}
+
+
+.bg-logo_white_mobile {
+    width: 130px; height: 18px;
+    background: url('css_sprites.png') -214px -124px;
+}
+
+
+.bg-news_note_yellow {
+    width: 64px; height: 64px;
+    background: url('css_sprites.png') -10px -170px;
+}
+
+
+.bg-news_mice_yellow_mobile {
+    width: 46px; height: 46px;
+    background: url('css_sprites.png') -80px -334px;
+}
+
+
+.bg-news_mice_yellow {
+    width: 64px; height: 64px;
+    background: url('css_sprites.png') -94px -170px;
+}
+
+
+.bg-map_mobile {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -98px -404px;
+}
+
+
+.bg-news_note_white {
+    width: 64px; height: 64px;
+    background: url('css_sprites.png') -178px -170px;
+}
+
+
+.bg-news_mice_white {
+    width: 64px; height: 64px;
+    background: url('css_sprites.png') -262px -170px;
+}
+
+
+.bg-review_next_btn_mobile {
+    width: 26px; height: 26px;
+    background: url('css_sprites.png') -450px -334px;
+}
+
+
+.bg-news_note_yellow_mobile {
+    width: 46px; height: 46px;
+    background: url('css_sprites.png') -146px -334px;
+}
+
+
+.bg-review_next_btn {
+    width: 50px; height: 50px;
+    background: url('css_sprites.png') -376px -226px;
+}
+
+
+.bg-review_prev_btn {
+    width: 50px; height: 50px;
+    background: url('css_sprites.png') -10px -334px;
+}
+
+
+.bg-review_plus_mobile {
+    width: 11px; height: 12px;
+    background: url('css_sprites.png') -186px -404px;
+}
+
+
+.bg-review_star {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -142px -404px;
+}
+
+
+.bg-review_prev_btn_mobile {
+    width: 26px; height: 26px;
+    background: url('css_sprites.png') -330px -254px;
+}
+
+
+.bg-review_plus {
+    width: 15px; height: 16px;
+    background: url('css_sprites.png') -376px -296px;
+}
+
+
+.bg-slide_next_btn {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -170px -254px;
+}
+
+
+.bg-review_star_mobile {
+    width: 14px; height: 14px;
+    background: url('css_sprites.png') -330px -300px;
+}
+
+
+.bg-slide_prev_btn {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -250px -254px;
+}
+
+
+.bg-scroll_top {
+    width: 54px; height: 54px;
+    background: url('css_sprites.png') -376px -10px;
+}
+
+
+.bg-slide_next_btn_moible {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -450px -282px;
+}
+
+
+.bg-story_logo {
+    width: 346px; height: 48px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+
+.bg-scroll_top_mobile {
+    width: 40px; height: 40px;
+    background: url('css_sprites.png') -336px -334px;
+}

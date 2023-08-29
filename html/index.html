@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>선망</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/common.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>
+      <a href="./index.html" class="logo">
+        <picture>
+          <source srcset="./img/logo-white-mobile.png" media="(max-width: 769px)">
+          <img src="./img/logo-white.png" alt="sunmanc, 선망">
+        </picture>
+      </a>
+    </h1>
+    <nav class="gnb">
+      <ul>
+        <li class="depth1">
+          <a href="./sunmanc-story.html">브랜드 소개</a>
+        </li>
+        <li class="depth1">
+          <a href="./product.html">선망 스토어</a>
+        </li>
+        <li class="depth1">
+          <a href="./news.html">소식</a>
+          <div class="depth2">
+            <ul>
+              <li><a href="./news.html">뉴스</a></li>
+              <li><a href="#none" class="no">공지사항</a></li>
+              <li><a href="#none" class="no">이벤트</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="depth1">
+          <a href="./review.html">고객후기</a>
+        </li>
+        <li class="depth1"><a href="./faq.html">고객센터</a>
+          <div class="depth2">
+            <ul>
+              <li><a href="./faq.html">FAQ</a></li>
+              <li><a href="#none" class="no">1:1 문의</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <ul class="mypage">
+      <li><a href="#none">LOGIN</a></li>
+      <li><a href="#none">JOIN US</a></li>
+    </ul>
+    <a href="#none" class="ham-menu">
+      <picture>
+        <source srcset="./img/hamburger-white-mobile.png" media="(max-width: 769px)">
+        <img src="./img/hamburger-white.png" alt="sunmanc, 선망">
+      </picture>
+    </a>
+  </header>
+  <!-- //Header -->
+
+  <div class="scroll-top"></div> <!-- scrollTop -->
+  
+  <!-- site-hammenu -->
+  <div class="site-map">
+    <nav class="site-map-menu">
+      <ul>
+        <li class="depth1">
+          <a href="./sunmanc-story.html">브랜드 소개</a>
+        </li>
+        <li class="depth1">
+          <a href="./product.html">선망 스토어</a>
+        </li>
+        <li class="depth1 menu">
+          <div class="menu-wrap">
+            <a href="#none">소식</a>
+            <div class="bottom-arrow"></div>
+            <div class="top-arrow"></div>
+          </div>
+          <div class="depth2">
+            <ul>
+              <li><a href="./news.html">뉴스</a></li>
+              <li><a href="#none" class="no">공지사항</a></li>
+              <li><a href="#none" class="no">이벤트</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="depth1">
+          <a href="./review.html">고객후기</a>
+        </li>
+        <li class="depth1 menu">
+          <div class="menu-wrap">
+            <a href="#none">고객센터</a>
+            <div class="bottom-arrow"></div>
+            <div class="top-arrow"></div>
+          </div>
+          <div class="depth2">
+            <ul>
+              <li><a href="./faq.html">FAQ</a></li>
+              <li><a href="#none" class="no">1:1 문의</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <a href="#none" class="x">
+      <picture>
+        <source srcset="./img/x-black-mobile.png" media="(max-width: 769px)">
+        <img src="./img/x-black.png" alt="sunmanc, 선망">
+      </picture>
+    </a>
+  </div>
+  <!-- //site-hammenu -->
+  
+  <!-- Slide -->
+  <div class="slide-wrap">
+    <div class="slide-area">
+      <a href="#none">
+        <div class="slide slide1">
+          <div class="text-wrap">
+            <span class="eng-title">best product</span>
+            <p>달콤한 아이스티처럼 즐기는</p>
+            <b>선망 콤부차 복숭아맛</b>
+            <span class="explain">달콤하지만 당은 0g! 진한 복숭아향으로 즐겨보세요.</span>
+          </div>
+        </div>
+      </a>
+      <a href="#none">
+        <div class="slide slide2">
+          <div class="text-wrap">
+            <span class="eng-title eng-title2">new arrival</span>
+            <p>체지방만 쏙~ 빠지는</p>
+            <b>가르시니아 샤인머스켓 런칭!</b>
+            <span class="explain">비타민C & 판토텐산 & 나이아신 & 비타민 B1, B2,  B6까지!</span>
+          </div>
+        </div>
+      </a>
+      <a href="#none">
+        <div class="slide slide3">
+          <div class="text-wrap">
+            <span class="eng-title eng-title3">best product</span>
+            <p>레모네이드의 청량감!</p>
+            <b>선망 콤부차 레몬맛</b>
+            <span class="explain">레몬 자체의 진하고 상큼한 맛으로 에이드처럼 즐겨보세요.</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="slide-nav">
+      <a href="#none" class="btn-prev">prev</a>
+      <a href="#none" class="btn-next">next</a>
+    </div>
+    <div class="slide-indi">
+      <a href="#none"></a>
+      <a href="#none"></a>
+    </div>
+  </div>
+  <!-- //Slide -->
+
+  <!-- Story -->
+  <section class="main-section story-wrap">
+    <div class="bg"></div>
+    <div class="container">
+      <h2>sunmanc story</h2>
+      <div class="peach-wrap"></div>
+      <div class="peach-water"></div>
+      <article class="text-box">
+        <span>Kind Health</span>
+        <h3>'착한 건강(善)을 바라다(望)'</h3>
+        <p>소비자분들의 의견을 반영하여 착한 성분, 착한 가격으로<br>아름답고 건강한 제품을 만들기 위해 최선을 다합니다.<br>맛있고 건강한 수분섭취로 누구나 행복해지고 건강해질 수 있는<br>'건강한 아름다움'을 만나보세요.</p>
+        <a href="#none">view more</a>
+      </article>
+    </div>
+  </section>
+  <!-- //Story -->
+
+  <!-- Product -->
+  <section class="main-section product-section">
+    <div class="container">
+      <h2>our product</h2>
+      <ul class="product-wrap">
+        <li class="product">
+          <a href="#none">
+            <div class="line-wrap">
+              <div class="line">
+                <div class="img-wrap">
+                  <img src="./img/product1.png" alt="">
+                </div>
+              </div>
+            </div>
+            <h3>선망 콤부차 복숭아맛</h3>
+            <p>아이스티가 생각나는 풍미와 복숭아의 달콤함이 느껴지는 맛</p>
+            <span>4,290</span>
+          </a>
+        </li>
+        <li class="product product2">
+          <a href="#none">
+            <div class="line-wrap">
+              <div class="line">
+                <div class="img-wrap">
+                  <img src="./img/product2.png" alt="">
+                </div>
+              </div>
+            </div>
+            <h3>선망 콤부차 레몬맛</h3>
+            <p>레모네이드의 시원한 청량감과 레몬의 상큼함이 느껴지는 맛</p>
+            <span>4,290</span>
+          </a>
+        </li>
+        <li class="product product3">
+          <a href="#none">
+            <div class="line-wrap">
+              <div class="line">
+                <div class="img-wrap">
+                  <img src="./img/product3.png" alt="">
+                </div>
+              </div>
+            </div>
+            <h3>선망 콤부차 샤인머스캣맛</h3>
+            <p>샤인머스켓의 높은 당도와 싱그럽고 달콤한 향을 즐길 수 있는 맛</p>
+            <span>4,290</span>
+          </a>
+        </li>
+        <li class="product product4">
+          <a href="#none">
+            <div class="line-wrap">
+              <div class="line">
+                <div class="img-wrap">
+                  <img src="./img/product4.png" alt="">
+                </div>
+              </div>
+            </div>
+            <h3>선망 가르시니아 샤인머스캣맛</h3>
+            <p>가르시니아 특유의 비릿한 맛 없이 즐기는 달달한 샤인머스캣 맛</p>
+            <span>14,900</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- //Product -->
+
+  <!-- Review -->
+  <section class="main-section review-section">
+    <div class="container">
+      <h2>review</h2>
+      <div class="review-slide-wrap">
+        <div class="swiper mySwiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#none">
+                <div class="img-wrap">
+                  <img src="./img/main-review1.png" alt="">
+                </div>
+                <div class="text-wrap">
+                  <h3>탄산 끊고 여기로 정착!</h3>
+                  <p class="explain">최애 음료입니다. 항상 구매해요! 당 수치도 낮아서 가족들도 이것만 마셔요~</p>
+                  <div class="star-wrap">
+                    <div class="star"></div>
+                    <span>5.0</span>
+                  </div>
+                  <div class="price-wrap">
+                    <p class="name">선망 콤부차 체험팩 3종세트</p>
+                    <span class="price">11,500</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#none">
+                <div class="img-wrap">
+                  <img src="./img/main-review2.png" alt="">
+                </div>
+                <div class="text-wrap">
+                  <h3>오전에 커피 대신 먹어요</h3>
+                  <p class="explain">콤부차 처음 먹어봐요! 탄산도 많고 맛있어요 칼로리도 낮고 좋아요</p>
+                  <div class="star-wrap">
+                    <div class="star"></div>
+                    <span>5.0</span>
+                  </div>
+                  <div class="price-wrap">
+                    <p class="name">선망 콤부차 체험팩 3종세트</p>
+                    <span class="price">11,500</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#none">
+                <div class="img-wrap">
+                  <img src="./img/main-review3.png" alt="">
+                </div>
+                <div class="text-wrap">
+                  <h3>뭔가 속이 편해지는 느낌~</h3>
+                  <p class="explain">0kcal에 당 0g 인데도 이렇게 달달하고 맛있을 수가 있다니요..!! 대박이에요</p>
+                  <div class="star-wrap">
+                    <div class="star"></div>
+                    <span>5.0</span>
+                  </div>
+                  <div class="price-wrap">
+                    <p class="name">선망 콤부차 복숭아맛</p>
+                    <span class="price">4,290</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#none">
+                <div class="img-wrap">
+                  <img src="./img/main-review4.png" alt="">
+                </div>
+                <div class="text-wrap">
+                  <h3>먹기 편하고 맛도 좋아요</h3>
+                  <p class="explain">타 제품에 비해 가격도 저렴한 편이에요. 관리 차원에서 꾸준히 먹어보려구요. </p>
+                  <div class="star-wrap">
+                    <div class="star"></div>
+                    <span>5.0</span>
+                  </div>
+                  <div class="price-wrap">
+                    <p class="name">선망 가르시니아 샤인머스캣</p>
+                    <span class="price">14,900</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#none">
+                <div class="img-wrap">
+                  <img src="./img/main-review5.png" alt="">
+                </div>
+                <div class="text-wrap">
+                  <h3>운동할 때 마심 딱!</h3>
+                  <p class="explain">너무 시지도않고 먹기 좋습니다. 연한 보리차색 같아서 그것도 좋네요~</p>
+                  <div class="star-wrap">
+                    <div class="star"></div>
+                    <span>5.0</span>
+                  </div>
+                  <div class="price-wrap">
+                    <p class="name">선망 콤부차 체험팩 3종세트</p>
+                    <span class="price">11,500</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#none">
+                <div class="img-wrap">
+                  <img src="./img/main-review6.png" alt="">
+                </div>
+                <div class="text-wrap">
+                  <h3>물 1.5리터는 마셔요</h3>
+                  <p class="explain">헬스하면서 수분섭취 늘리라해서 마시는데 진짜 강추요.</p>
+                  <div class="star-wrap">
+                    <div class="star"></div>
+                    <span>5.0</span>
+                  </div>
+                  <div class="price-wrap">
+                    <p class="name">선망 콤부차 체험팩 3종세트</p>
+                    <span class="price">11,500</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./js/review-slide.js"></script>
+  <!-- //Review -->
+
+  <!-- Notice&News -->
+  <section class="main-section news-section">
+    <div class="container">
+      <div class="news-title-wrap">
+        <h2>Notice&News</h2>
+        <a href="./news.html" class="view-all">View all</a>
+        <a href="#none" class="arrow"></a>
+      </div>
+      <ul class="news-wrap">
+        <li class="news news1">
+          <a href="#none">
+            <b>Notice</b>
+            <p>선망 공식 홈페이지가 새롭게 오픈하였습니다!</p>
+            <div class="day-icon-wrap">
+              <span>2023.06.21</span>
+              <div class="icon-wrap"></div>
+            </div>
+          </a>
+        </li>
+        <li class="news">
+          <a href="#none">
+            <b>News</b>
+            <p>선망(SUNMANC), 1700여 명의 취약계층 이웃에게 콤부차 기부</p>
+            <div class="day-icon-wrap">
+              <span>2023.06.09</span>
+              <div class="icon-wrap"></div>
+            </div>
+          </a>
+        </li>
+        <li class="news news3">
+          <a href="#none">
+            <b>News</b>
+            <p>선망(SUNMANC), 우양재단 통해 1천만원 상당의 콤부차 기부</p>
+            <div class="day-icon-wrap">
+              <span>2023.04.10</span>
+              <div class="icon-wrap"></div>
+            </div>
+          </a>
+        </li>
+        <li class="news news4">
+          <a href="#none">
+            <b>News</b>
+            <p>선망(SUNMANC), 마시는 가르시니아 ‘톡톡콤’ 출시</p>
+            <div class="day-icon-wrap">
+              <span>2022.10.07</span>
+              <div class="icon-wrap"></div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- //Notice&News -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-text-wrap">
+        <div class="text">
+          <h3>Customer center</h3>
+          <b>070-4195-2007</b>
+          <p>MON - FRI (10:00 ~ 19:00)<Br>OFF (SATURDAY, SUNDAY, HOLIDAY) </p>
+        </div>
+        <div class="text">
+          <h3>Bank info</h3>
+          <p>IBK기업은행 655-033515-04-010<Br>(주)피피와이씨바이오</p>
+        </div>
+        <div class="text">
+          <h3>About</h3>
+          <p>이용약관<br>개인정보취급방침<br>이용안내</p>
+        </div>
+        <div class="text last-text">
+          <h3>Follow us</h3>
+          <div class="icon-wrap">
+            <a href="#none"><div class="naver"></div></a>
+            <a href="#none"><div class="instagram"></div></a>
+          </div>
+        </div>
+      </div>
+      <div class="information-wrap">
+        <div class="info">
+          <b>상호</b>
+          <span>주식회사 피피와이씨바이오</span>
+        </div>
+        <div class="info">
+          <b>대표</b>
+          <span>윤상민</span>
+        </div>
+        <div class="info">
+          <b>사업자등록번호</b>
+          <span>641-88-02205</span>
+        </div>
+        <div class="info">
+          <b>주소</b>
+          <span>서울특별시 광진구 능동로13길 75 (화양동) 2층 A113</span>
+        </div>
+        <div class="info">
+          <b>TEL</b>
+          <span>070-4195-2007</span>
+        </div>
+        <div class="info">
+          <b>개인정보관리책임자</b>
+          <span>윤상민(CONTACT@PPYCBIO.COM)</span>
+        </div>
+        <div class="info">
+          <b>통신판매업 신고</b>
+          <span>제2021-서울광진-1959호 </span>
+        </div>
+      </div>
+      <small>COPYRIGHT 2021 주식회사 피피와이씨바이오. ALL RIGHTS RESERVED.</small>
+    </div>
+  </footer>
+  <!-- //Footer -->
+
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script src="./js/slide.js"></script>
+</body>
+</html>
